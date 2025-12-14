@@ -1,0 +1,128 @@
+/* =========================
+   Responsive Media Queries
+   Put at the END of index-style.css
+   ========================= */
+
+/* 0) Small phones (<= 575.98px) */
+@media (max-width: 575.98px) {
+
+  /* خفّ شوية مساحات في الـ navbar */
+  .navbar { padding: .5rem !important; }
+
+  /* خلي الكارد يبقى داخل الشاشة ومش عريض قوي */
+  #demo.container-fluid{
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* خلي التابات تعمل لف وما تزحمش */
+  .recipe-tabs{
+    width: 100% !important;           /* بدل w-75 */
+    gap: 6px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .recipe-tabs .nav-item{
+    flex: 1 1 calc(50% - 6px);        /* صفين: كل صف زرين */
+  }
+  .recipe-tabs .nav-link{
+    width: 100%;
+    font-size: 11px;                   /* أصغر شوية */
+    padding: 10px 8px;
+    text-align: center;
+  }
+
+  /* حجم العناوين والنصوص */
+  .font-10{ font-size: 20px; line-height: 28px; }
+  .font-11{ font-size: 13px; line-height: 18px; }
+  .font-h3{ font-size: 16px; }
+  .font-p{ font-size: 11px; }
+
+  /* الأيقونات الدائرية/الأرقام أصغر */
+  .step-number{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+  }
+
+  /* صندوق الشيف تيبس والنوتريشن: padding أقل */
+  .ingredients-box,
+  .instructions-box,
+  .tips-box{
+    padding: 16px !important;
+  }
+
+  /* سكروول المحتوى: خليه أطول شوية على الموبايل */
+  .h-200px{ height: 360px; }
+
+  /* زر Try Another Recipe: خليه مناسب للموبايل */
+  .leanar{
+    width: 100%;
+    border-radius: 14px !important;
+    padding: 12px 14px !important;
+    font-size: 13px;
+  }
+}
+
+
+/* 1) Phones / small tablets (576px - 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .recipe-tabs{
+    width: 100% !important;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .recipe-tabs .nav-item{
+    flex: 0 1 calc(50% - 8px);
+  }
+  .recipe-tabs .nav-link{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .h-200px{ height: 360px; }
+}
+
+
+/* 2) Tablet (768px - 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* هنا الـ d-md-flex شغال: خلي كل عمود ياخد مساحة محترمة */
+  #demo{
+    width: 55%;
+  }
+
+  /* الجزء اللي فيه التابات + test + الزر */
+  .d-md-flex > div{
+    width: 45%;
+  }
+
+  .recipe-tabs{
+    width: 95% !important;
+  }
+
+  .h-200px{ height: 320px; }
+}
+
+
+/* 3) Large screens (>= 992px) */
+@media (min-width: 992px) {
+
+  /* خلي العرض متوازن على الديسكتوب */
+  #demo{
+    width: 58%;
+  }
+  .d-md-flex > div{
+    width: 42%;
+  }
+
+  .recipe-tabs{
+    width: 90% !important;
+  }
+
+  .h-200px{ height: 750px; }
+}

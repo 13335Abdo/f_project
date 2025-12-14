@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFBEB;
+}
+
+.bg-wepColor {
+    background-color: #FE4526;
+}
+
+.font-ut {
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.font-h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: oklch(0.21 0.034 264.665);
+}
+
+.font-p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: oklch(0.551 0.027 264.364);
+}
+
+.hover1:hover {
+    color: #FE4526;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.font-span1 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: oklch(0.527 0.154 150.069);
+    background-color: #DBEAFE;
+}
+
+.font-span2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: oklch(0.488 0.243 264.376);
+
+    background-color: #DBEAFE;
+}
+
+.font-10 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: oklch(0.21 0.034 264.665);
+}
+
+.font-11 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: oklch(0.446 0.03 256.802);
+}
+
+.hover2:hover {
+    background-color: #FFD6A7;
+    transition: all 0.5s;
+}
+
+.hover2 {
+    background-color: #e7dec9;
+    color: #FE4526;
+
+}
+
+.recipe-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    color: #777;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.recipe-tabs .nav-link.active {
+    color: #ff6b00;
+    border-bottom: 3px solid #ff6b00;
+}
+
+.recipe-tabs .nav-link:hover {
+    color: black;
+}
+
+.font-12 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: oklch(0.551 0.027 264.364);
+}
+
+.w-90 {
+    width: 90%;
+}
+
+/* Common Yellow Box */
+.ingredients-box,
+.instructions-box,
+.tips-box {
+    background-color: #fff7e6;
+    border-radius: 18px;
+}
+
+/* Orange number icon */
+.step-number {
+    width: 32px;
+    height: 32px;
+    background-color: #ff7a00;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.font-13 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: oklch(0.373 0.034 259.733);
+}
+
+.font-14 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: oklch(0.21 0.034 264.665);
+}
+
+.aaa {
+    background-color: #FFEDD4;
+    color: #F54900;
+}
+
+.bbb {
+    background-color: #DBEAFE;
+    color: #155DFC;
+}
+
+.ccc {
+    background-color: #FEF9C2;
+    color: #D08700;
+}
+
+.ddd {
+    background-color: #FFE2E2;
+    color: #E7000B;
+}
+
+.eee {
+    background-color: #DBFCE7;
+    color: #00A63E;
+}
+
+.fff {
+    background-color: #FCE7F3;
+    color: #E60076;
+}
+
+.mm {
+    background-color: #F9FAFB;
+}
+
+.corr {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: oklch(0.666 0.179 58.318);
+}
+
+.font-20 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: oklch(0.373 0.034 259.733);
+}
+
+.bg-kkk {
+    background-color: #FFFBEB;
+
+}
+
+.box {
+    border-left: 4px solid #ff9800;
+}
+
+.leanar {
+    background: linear-gradient(90deg, #E17100, #e70045);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+.leanar:hover
+{
+    background: linear-gradient(90deg, #e12200, #e70000);
+}
+.h-200px
+{
+    height: 300px;
+}

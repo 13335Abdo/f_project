@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index-style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-2 shadow-sm">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <div>
+                    <div class="p-2 rounded-circle bg-wepColor font-ut fs-5 mt-2 me-3">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-h3">What's For Dinner</h3>
+                    <p class="font-p">Your daily meal inspiration</p>
+                </div>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class=""><i class="fa-solid fa-bars hover1"></i></span>
+            </button>
+        
+        </div>
+    </nav>
+
+
+   <div class="d-md-flex">
+     <section class="container-fluid bg-white my-4 rounded-5" id="demo">
+    </section>
+
+
+
+    <div class="w-media20">
+        <div class="m-auto">
+        <ul class="nav recipe-tabs my-3 w-75 m-auto">
+            <li class="nav-item">
+                <button onclick="ggg()" class="nav-link font-12 active" type="button"><i
+                        class="fa-solid fa-list-check"></i>Ingredients</button>
+            </li>
+            <li class="nav-item">
+                <button onclick="zzz()" class="nav-link font-12" type="button"><i
+                        class="fa-solid fa-book-open"></i>Instructions</button>
+            </li>
+            <li class="nav-item">
+                <button onclick="Nutri()" class="nav-link font-12" type="button"><i
+                        class="fa-solid fa-chart-pie"></i>Nutrition</button>
+            </li>
+            <li class="nav-item">
+                <button onclick="www()" class="nav-link font-12" type="button"><i class="fa-solid fa-lightbulb"></i>Chef's
+                    Tips</button>
+            </li>
+        </ul>
+        <hr class="my-3 w-90 m-auto">
+    </div>
+
+
+
+
+
+    <div id="test" class="overflow-scroll h-200px">
+
+    </div>
+    <button onclick="final()  ,Nutri(),www() , zzz() , ggg()" class="border-0 text-white leanar px-3 py-2 rounded-3 container-fluid mb-5"><i
+            class="fa-solid fa-rotate"></i>
+        try another recipe </button>
+    </div>
+
+   </div>
+
+
+    
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mine.js"></script>
+</body>
+
+</html>
