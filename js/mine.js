@@ -213,9 +213,10 @@ function but() {
     var x = Math.floor(Math.random() * 11);
     return x
 }
+var y = but()
 function final() {
-
-    for (var i = 0; i <= but(); i++) {
+y = but()
+    for (var i = 0; i <= y; i++) {
         document.getElementById("demo").innerHTML = `
             <div class="m-auto w-media">
             <div>
@@ -248,11 +249,9 @@ function final() {
 
 
 
-
-
-
 function ggg() {
-    for (var i = 0; i <= but(); i++) {
+    y = but()
+    for (var i = 0; i <= y; i++) {
         document.getElementById("test").innerHTML = `
         <div class="ingredients-box p-4 mb-4">
             <ol class="list-unstyled mb-0">
@@ -284,7 +283,7 @@ function ggg() {
 }
 
 function zzz() {
-    for (var i = 0; i <= but(); i++) {
+    for (var i = 0; i <= y; i++) {
         document.getElementById("test").innerHTML =
             `
         <div class="instructions-box p-4 mb-4">
@@ -320,7 +319,7 @@ function zzz() {
 }
 
 function www() {
-    for (var i = 0; i <= but(); i++) {
+    for (var i = 0; i <= y; i++) {
         document.getElementById("test").innerHTML = `
         <div class="container-fluid">
     <div class="container-fluid p-3 bg-kkk rounded-4 box mt-3">
@@ -348,7 +347,7 @@ function www() {
     }
 }
 function Nutri() {
-    for (var i = 0; i <= but(); i++) {
+    for (var i = 0; i <= y; i++) {
         document.getElementById("test").innerHTML = `
         <div class="container-fluid mb-4">
     <div class="d-flex mt-3 rounded-3 p-2 mm">
