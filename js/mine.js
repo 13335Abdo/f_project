@@ -215,8 +215,7 @@ function but() {
 }
 var y = but()
 function final() {
-y = but()
-    for (var i = 0; i <= y; i++) {
+    for (var i = 0; i <= but(); i++) {
         document.getElementById("demo").innerHTML = `
             <div class="m-auto w-media">
             <div>
@@ -247,11 +246,40 @@ y = but()
 
 
 
-
+function gggg() {
+    for (var i = 0; i <= y; i++) {
+        document.getElementById("test").innerHTML = `
+        <div class="ingredients-box p-4 mb-4">
+            <ol class="list-unstyled mb-0">
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">1</span> ${arr[i].As1}
+                </li>
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">2</span> ${arr[i].As2}
+                </li>
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">3</span>${arr[i].As3}
+                </li>
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">4</span>${arr[i].As4}
+                </li>
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">5</span> ${arr[i].As5}
+                </li>
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">6</span> ${arr[i].As6}
+                </li>
+                <li class="d-flex mb-2 align-items-center">
+                    <span class="step-number">7</span> ${arr[i].As7}
+                </li>
+            </ol>
+        </div>
+        <hr class="my-3 w-90 m-auto">`
+    }
+}
 
 function ggg() {
-    y = but()
-    for (var i = 0; i <= y; i++) {
+    for (var i = 0; i <= but(); i++) {
         document.getElementById("test").innerHTML = `
         <div class="ingredients-box p-4 mb-4">
             <ol class="list-unstyled mb-0">
